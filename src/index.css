@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("./bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+form {
+  margin: 3rem;
+  font-size: 20px;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: white;
+  margin: 3rem;
+  border: none;
+  border-bottom: 2px solid whitesmoke;
+  border-radius: 0;
+  font-weight: 600;
+}
+
+form input:focus{ 
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+}
+
+.form input,
+.form ::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.btn{
+  border: none;
+  color: black;
+  padding: 10px;
+}
+
+/* .container {
+  margin-top: 1.2rem;
+}
+
+.container input:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 2px solid tomato;
+} */
